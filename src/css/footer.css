@@ -1,0 +1,15 @@
+.mouse-icon {
+    width: 60px;
+    height: 60px;
+    border: 1px solid rgba(255, 255, 255, 0.7);
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    border-radius: 50%;
+    background: #82ae46;
+    cursor: pointer;
+    position: relative;
+    text-align: center;
+    margin: 0 auto;
+    display: block;
+}

@@ -1,17 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@584&display=swap');
+
 /* #containerJumbo{
     background: #E1F5FE;
 } */
 
-#fb-btn{
+
+/* body{
+    background: rgb(0, 0, 0)
+}
+ */
+
+#blank{
+    height: 500px;
+}
+
+#img {
+    font-family: 'Dancing Script', cursive;
+    background-image: url('../../public/assets/portada.png');
+    height: 575px;
+}
+
+#fb-btn {
     background: #eee;
 }
 
-#in-btn{
+#in-btn {
     background: #eee;
 }
 
-#footer{
+#footer {
     background: #eee;
+}
+
+.no-gutters {
+    margin-right: 0;
+    margin-left: 0;
+}
+
+.no-gutters>.col,
+.no-gutters>[class*="col-"] {
+    padding-right: 0;
+    padding-left: 0;
+}
+
+.mw-25{
+    max-width: 250px;
+}
+
+.ftco-section {
+    padding: 6em 0;
+    position: relative;
 }
 
 .animate__animated.animate__fadeIn {
@@ -21,4 +59,3 @@
 .animate__animated.animate__fadeInDown {
     --animate-duration: 2s;
 }
-

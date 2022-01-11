@@ -16,7 +16,7 @@ const Header = () => {
                         aria-controls="navbarTogglerDemo01"
                         aria-expanded="false"
                         aria-label="Toggle navigation"
-                    ><i class="bi bi-list icons-header"></i></button>
+                    ><i class="bi bi-list icons-header" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Menu"></i></button>
                     <a className="navbar-brand px-5" href="/">
                         <img src={logo} alt="logo" width="60px" className="d-inline-block align-top" />
                     </a>
