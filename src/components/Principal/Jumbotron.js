@@ -4,8 +4,7 @@ import '../../css/principal.css'
 export const Jumbotron = () => {
     return (
         <div
-            className="p-5 text-center bg-image animate__animated animate__fadeIn"
-            id="img"
+            className="p-5 text-center bg-image animate__animated animate__fadeIn img"
         >
             <div className="mask">
                 <div className="d-flex justify-content-center align-items-center h-100">

@@ -1,10 +1,10 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import {
+/* import {
   BrowserRouter as Router,
   Routes,
   Route, 
-} from "react-router-dom";
+} from "react-router-dom"; */
 /* import 'materialize-css/dist/css/materialize.min.css'
 import 'materialize-css/dist/js/materialize.min.js' */
 /* Importar boostrap */
@@ -15,7 +15,7 @@ import "mdb-ui-kit/js/mdb.min.js"
 import "../node_modules/aos/dist/aos.css"
 import Principal from './Principal';
 import Header from './components/Header';
-import NotFound from './components/NotFound';
+/*import NotFound from './components/NotFound'; */
 import AOS from "aos";
 import { useEffect } from 'react';
 
@@ -27,7 +27,7 @@ const FrutasApp = ()=>{
     });
   }, []);
 
-  return(
+  /* return(
     <>
       <Header/>
       <Router>
@@ -36,6 +36,13 @@ const FrutasApp = ()=>{
           <Route exact path="*" element={<NotFound/>}/>
         </Routes>
       </Router>
+    </>
+  ); */
+
+  return(
+    <>
+      <Header/>
+      <Principal/>
     </>
   );
 

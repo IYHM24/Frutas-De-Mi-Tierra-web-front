@@ -5,19 +5,11 @@
 } */
 
 
-/* body{
-    background: rgb(0, 0, 0)
-}
- */
+/* clear */
+
 
 #blank{
     height: 500px;
-}
-
-#img {
-    font-family: 'Dancing Script', cursive;
-    background-image: url('../../public/assets/portada.png');
-    height: 575px;
 }
 
 #fb-btn {
@@ -41,6 +33,12 @@
 .no-gutters>[class*="col-"] {
     padding-right: 0;
     padding-left: 0;
+}
+
+.img {
+    font-family: 'Dancing Script', cursive;
+    background-image: url('../../public/assets/portada.png');
+    height: 575px;
 }
 
 .mw-25{
